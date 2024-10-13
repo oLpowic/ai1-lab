@@ -1,0 +1,110 @@
+body {
+    /* background-image: url('photos/neons.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #0f0;
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 2px;
+}
+
+
+header {
+    padding: 20px;
+    background: linear-gradient(90deg, #ff4500, #00ffff);
+    text-align: center;
+    border-bottom: 5px solid #ff4500;
+    border: 2px solid #ff4500; 
+    border-radius: 10px;
+}
+
+
+header h1 {
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px #ff4500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    animation: pulse 2s infinite;
+    border: 2px solid #ff4500; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+
+h2 {
+    font-size: 40px;
+    color: #00ffff;
+    text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+    transform: rotate(-5deg);
+    border: 2px solid #00ffff; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+h3 {
+    font-size: 30px;
+    color: #ff6347;
+    text-shadow: 0 0 10px #ff6347, 0 0 20px #ff6347;
+    transform: skewX(10deg);
+    border: 2px solid #ff6347; 
+    padding: 8px;
+    border-radius: 5px; 
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 20px auto;
+    max-width: 600px;
+    color: #0f0;
+    text-shadow: 0 0 10px #0f0;
+    animation: flicker 2s infinite alternate;
+    border: 2px solid #0f0;
+    padding: 15px;
+    border-radius: 10px; 
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    border: 2px solid #ff4500; 
+    padding: 15px;
+    border-radius: 10px; 
+}
+
+ul li {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #ff4500;
+    text-shadow: 0 0 10px #ff4500;
+    position: relative;
+    animation: bounce 3s infinite ease-in-out;
+    border: 2px solid #ff4500; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #000;
+    color: #00ff00;
+    box-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00;
+    margin-top: 50px;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid #00ff00; 
+}
+
+footer p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
